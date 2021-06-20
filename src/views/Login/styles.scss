@@ -1,0 +1,16 @@
+.login {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background-color: #f0f5ff;
+}
+
+.login_form {
+	background-color: white;
+	height: 100%;
+}
+
+.login_form > input {
+	display: block;
+	margin-top: 1rem;
+}

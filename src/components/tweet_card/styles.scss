@@ -1,0 +1,54 @@
+.tweet__card {
+	background-color: #fcfcfc;
+	border-radius: 10px;
+	height: fit-content;
+	padding: 1rem 1rem 0.5rem 1rem;
+	display: flex;
+	margin-top: 1rem;
+	box-shadow: -1px 5px 5px 0px rgba(212, 212, 212, 0.75);
+	-webkit-box-shadow: -1px 5px 5px 0px rgba(212, 212, 212, 0.75);
+	-moz-box-shadow: -1px 5px 5px 0px rgba(212, 212, 212, 0.75);
+	min-width: fit-content;
+}
+
+.tweet__card__info {
+	margin-left: 1rem;
+	p {
+		margin: 0;
+		font-size: 10px;
+		padding-bottom: 0.5rem;
+	}
+}
+
+.tweet__card__buttons {
+	display: flex;
+	justify-content: space-evenly;
+
+	button {
+		background-color: transparent;
+		box-shadow: transparent;
+		margin-right: 0.5rem;
+		padding: 0.25rem;
+	}
+
+	button:hover {
+		background-color: transparent;
+	}
+
+	button:focus {
+		background-color: transparent;
+	}
+
+	.button_transparent {
+		background-color: transparent !important;
+	}
+
+	.bull {
+		color: green;
+		background-color: rgba(11, 155, 1, 0.32);
+	}
+	.bear {
+		color: red;
+		background-color: rgba(255, 32, 0, 0.32);
+	}
+}

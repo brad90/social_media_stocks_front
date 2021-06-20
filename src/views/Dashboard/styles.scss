@@ -1,0 +1,21 @@
+.dashboard {
+	height: 100%;
+	position: absolute;
+	display: flex;
+	top: 0;
+}
+
+.dash__sidebar {
+	background-color: lightgray;
+	width: 20vw;
+	padding: 5rem 1rem;
+	ul {
+		list-style: none;
+		a {
+			cursor: pointer;
+			li {
+				padding: 0.5rem;
+			}
+		}
+	}
+}

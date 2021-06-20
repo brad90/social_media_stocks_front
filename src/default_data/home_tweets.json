@@ -1,0 +1,32 @@
+{
+   "latest_tweets":[
+      {
+         "user_name": "default1",
+         "tweet": " $TESLA is going to the moon.",
+         "trendup": 12000,
+         "trenddown": 4000,
+         "user_direction": "bull"
+      },
+      {
+         "user_name": "default2",
+         "tweet": " $TESLA is going to the moon.",
+         "trendup": 201,
+         "trenddown": 100,
+         "user_direction": "bull"
+      },
+      {
+         "user_name": "default3",
+         "tweet": " $TESLA is going to the moon.",
+         "trendup": 400,
+         "trenddown": 4000,
+         "user_direction": "bear"
+      },
+      {
+         "user_name": "default4",
+         "tweet": " $TESLA is going to the moon.",
+         "trendup": 795,
+         "trenddown": 249,
+         "user_direction": "bull"
+      }
+   ]
+}
