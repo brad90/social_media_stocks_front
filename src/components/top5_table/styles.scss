@@ -1,0 +1,54 @@
+.table__container {
+	width: 100%;
+	display: flex;
+	margin-bottom: 3rem;
+}
+
+.top5__table {
+	width: 100%;
+	border: solid 0.5px lightgray;
+}
+
+.top5__header {
+	height: 2rem;
+	outline: lightgray;
+	th {
+		color: gray;
+		text-align: left;
+		padding: 1rem 1rem;
+		font-weight: lighter;
+	}
+}
+
+.top5__table__row td {
+	color: grey;
+	position: relative;
+	padding: 1rem;
+	cursor: default;
+	border-width: 0;
+	display: table-cell;
+	box-sizing: border-box;
+	border-top: 1px solid rgb(236, 239, 241) !important;
+
+	.top5__icon {
+		margin-left: 0.5rem;
+	}
+
+	.bull {
+		color: green;
+	}
+
+	.bear {
+		color: red;
+	}
+}
+
+.top5__table__row:hover {
+	cursor: pointer;
+	background-color: rgba(240, 240, 240, 0.44);
+}
+
+.top5__button {
+	float: right;
+	margin-right: 2rem;
+}

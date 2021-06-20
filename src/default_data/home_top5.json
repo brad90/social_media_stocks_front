@@ -1,0 +1,28 @@
+{
+   "top5":[
+      {
+         "ticker": "TSLA",
+         "trend_up": 12000,
+         "trend_down": 4000,
+         "current_price": 250
+      },
+      {
+         "ticker": "APPL",
+         "trend_up": 12000,
+         "trend_down": 4000,
+         "current_price": 250
+      },
+      {
+         "ticker": "COST",
+         "trend_up": 12000,
+         "trend_down": 4000,
+         "current_price": 250
+      },
+      {
+         "ticker": "TSLA",
+         "trend_up": 12000,
+         "trend_down": 4000,
+         "current_price": 250
+      }
+   ]
+}

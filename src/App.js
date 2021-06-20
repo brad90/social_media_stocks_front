@@ -27,6 +27,7 @@ function App() {
         <Route path="/" exact><Home /></Route>
         <Route path="/login"><Login /></Route>
         <Route path="/dashboard"><Dashboard /></Route>
+        <Route path="/stocks/info/:ticker/profile"><Dashboard /></Route>
         <Route component={NoMatch}/>
         </Switch>
       </Router>   

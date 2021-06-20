@@ -1,6 +1,7 @@
 .home {
 	width: 100%;
 	justify-content: center;
+	padding-top: 4rem;
 }
 
 .home__wrapper {
@@ -9,7 +10,7 @@
 	justify-content: space-between;
 
 	&.above_the_fold {
-		min-height: 70vh;
+		min-height: 60vh;
 		align-items: center;
 	}
 }
